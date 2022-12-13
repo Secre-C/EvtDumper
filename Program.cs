@@ -75,7 +75,7 @@ namespace EvtDumper
 
             Console.WriteLine($"Writing Dumped {evtType} File Contents...");
 
-            using (StreamWriter newFile = File.CreateText($"{Path.GetDirectoryName(args[1])}{evtDump}"))
+            using (StreamWriter newFile = File.CreateText($"{args[1]}{evtDump}"))
             {
                 newFile.WriteLine($"{evtType} Dump Created by SecreC.");
 

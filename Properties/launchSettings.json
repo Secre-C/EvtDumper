@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "EvtDumper": {
+      "commandName": "Project",
+      "commandLineArgs": "\"D:\\Github\\EvtTool\\src\\EvtTool\\bin\\Release\\EvtTool.exe\" \"E:\\ModsnStuff\\P5R Modding real\\steam files\""
+    }
+  }
+}
